@@ -9,3 +9,5 @@ github_username:  yatil
 
 # Build settings
 markdown: kramdown
+
+timezone: Europe/Berlin
