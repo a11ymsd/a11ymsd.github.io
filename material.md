@@ -4,9 +4,9 @@ title: Material
 permalink: /material/
 ---
 
-Mit **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg#icon-star"  | prepend: site.baseurl }}"></use></svg>** markierte Vorträge und Artikel bitte vor dem 18.04.2014 lesen.
+Please read the articles and watch the talks marked with the **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg#icon-star"  | prepend: site.baseurl }}"></use></svg>** symbol.
 
-## Artikel:
+## Articles:
 
 * **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg#icon-star"  | prepend: site.baseurl }}"></use></svg> [W3C/WAI Web Accessibility Tutorials](http://w3c.github.io/wai-tutorials/)**, Eric Eggert/Shadi Abou-Zahra & Contributors
 * **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg#icon-star"  | prepend: site.baseurl }}"></use></svg> [BITV 2.0 in Kraft](http://webkrauts.de/artikel/2011/bitv-20-kraft)**, Jan-Eric Hellbusch, webkrauts.de
@@ -15,15 +15,15 @@ Mit **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg
 * [Accessibility Originates With UX: A BBC iPlayer Case Study](http://www.smashingmagazine.com/2015/02/23/bbc-iplayer-accessibility-case-study/), Henny Swan, smashingmagazine.com
 * [Accessibility APIs: A Key To Web Accessibility](http://www.smashingmagazine.com/2015/03/16/web-accessibility-with-accessibility-api/), Léonie Watson & Chaals McCathie Nevile, smashingmagazine.com
 
-## Bücher:
+## Books:
 
-* [Responsive Web Design](http://abookapart.com/products/responsive-web-design) Second Edition, Ethan Marcotte, A Book Apart, 153 Seiten
-* [Responsible Responsive Design](http://abookapart.com/products/responsible-responsive-design), Scott Jehl, A Book Apart, 188 Seiten
-* [Mobile First](http://abookapart.com/products/mobile-first), Luke Wroblewski, A Book Apart, 123 Seiten
-* [Colour Accessibility](http://www.fivesimplesteps.com/products/colour-accessibility), Geri Coady, Five Simple Steps, 89 Seiten
-* [Barrierefreiheit verstehen und umsetzen — Webstandards für ein zugängliches und nutzbares Internet](http://www.barrierefreies-webdesign.de/dpunkt/), Jan Eric Hellbusch & Kerstin Probiesch, dpunkt verlag, 812 Seiten(!)
+* **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg#icon-star"  | prepend: site.baseurl }}"></use></svg> [Colour Accessibility](http://www.fivesimplesteps.com/products/colour-accessibility)**, Geri Coady, Five Simple Steps, 89 pages
+* [Responsive Web Design](http://abookapart.com/products/responsive-web-design) Second Edition, Ethan Marcotte, A Book Apart, 153 pages
+* [Responsible Responsive Design](http://abookapart.com/products/responsible-responsive-design), Scott Jehl, A Book Apart, 188 pages
+* [Mobile First](http://abookapart.com/products/mobile-first), Luke Wroblewski, A Book Apart, 123 pages
+* [Barrierefreiheit verstehen und umsetzen — Webstandards für ein zugängliches und nutzbares Internet](http://www.barrierefreies-webdesign.de/dpunkt/), Jan Eric Hellbusch & Kerstin Probiesch, dpunkt verlag, 812 pages(!)
 
-## Vorträge:
+## Talks:
 
 * **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg#icon-star"  | prepend: site.baseurl }}"></use></svg> [Selfish Accessibility](http://blog.adrianroselli.com/2015/03/slides-selfish-accessibility-for-avega.html)**, Adrian Roselli
 * **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg#icon-star"  | prepend: site.baseurl }}"></use></svg> [Real-world Responsive Design](https://vimeo.com/15986231)**, Stephen Hay, Fronteers 2010
