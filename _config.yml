@@ -11,3 +11,5 @@ github_username:  yatil
 markdown: kramdown
 
 timezone: Europe/Berlin
+
+permalink: /:categories/:year-:month-:day/
