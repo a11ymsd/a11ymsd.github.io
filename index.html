@@ -4,16 +4,19 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Lectures</h1>
 
-  <table class="post-list">
-    <caption>Lectures</caption>
+  <table class="lectures">
     <tr>
-      <th>Date</th>
-      <th>Lecture</th>
+      <th scope="col">Day</th>
+      <th scope="col">Date</th>
+      <th scope="col">Lecture</th>
     </tr>
     {% for post in site.posts reversed %}
       <tr>
+        <td>
+          {{ post.date | date: "%a" }}
+        </td>
         <td>
           {{ post.date | date: "%Y-%m-%d %R" }}
         </td>
