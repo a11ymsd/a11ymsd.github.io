@@ -79,11 +79,14 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+h1, h2, h3, h4, h5, h6, .site-title {
+    font-family: $heading-font-family;
+    font-weight: normal;
 }
 
-
+.site-title {
+    font-weight: 900;
+}
 
 /**
  * Links
@@ -217,4 +220,12 @@ pre {
       left: 0;
       border: none;
     }
+}
+
+.lectures {
+    border: 1px solid #777;
+    border-collapse: collapse;
+    td, th {border: 1px solid #777; padding: 5px;}
+    th {text-align: left; background: #ddd;}
+    thead {}
 }
