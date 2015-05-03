@@ -2,7 +2,7 @@
 layout: post
 title:  "Page Structure"
 date:   2015-04-27 18:00:00+02:00
-categories: cos15
+categories: cos14
 video: BOIclYveOnU
 slides: page-structure
 ---

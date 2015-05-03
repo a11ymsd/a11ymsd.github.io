@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction and Outlook"
 date:   2015-04-18 11:00:00+02:00
-categories: cos15
+categories: cos14
 slides: "index"
 video: "B_UHfeL6G_c"
 ---
