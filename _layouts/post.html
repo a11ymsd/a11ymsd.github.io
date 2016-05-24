@@ -12,6 +12,7 @@ layout: default
     {{ content }}
     <div class="buttons">
       {% if page.slides %}<a class="btn" href="{{ page.slides | prepend: "/cos-presentations/" | prepend: site.baseurl | append: ".html" }}">Slides</a>{% endif %}
+      {% if page.slidescom %}<a class="btn" href="{{ page.slidescom }}">Slides</a>{% endif %}
       {% if page.video %}<a class="btn" href="https://www.youtube.com/watch?v={{page.video}}">Video</a>{% endif %}
     </div>
 
