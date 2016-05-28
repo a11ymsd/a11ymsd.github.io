@@ -13,3 +13,11 @@ markdown: kramdown
 timezone: Europe/Berlin
 
 permalink: /:categories/:year-:month-:day/
+
+collections:
+  cos14:
+    output: true
+    permalink: /cos14/:title/
+  cos15:
+    output: true
+    permalink: /cos15/:title/

@@ -4,16 +4,65 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Lectures</h1>
+  <h1>Lectures</h1>
 
   <table class="lectures">
-    <tr>
-      <th scope="col">Day</th>
-      <th scope="col">Date</th>
-      <th scope="col">Lecture</th>
-    </tr>
-    {% for post in site.posts reversed %}
+    <caption><h2>#cos15</h2></caption>
+    <thead>
       <tr>
+        <td>&nbsp;</td>
+        <th scope="col">Day</th>
+        <th scope="col">Date</th>
+        <th scope="col">Lecture</th>
+        <th scope="col">EH</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% assign idx = 0 %}
+    {% for post in site.cos15 | sort: "date" %}
+    {% unless post.type == 'chat' %}{% assign idx = idx | plus: '1' %}{% endunless %}
+      <tr>
+        <td>{% unless post.type == 'chat' %}{{ idx }}{% endunless %}</td>
+        <td class="date">
+          {{ post.date | date: "%a" }}
+        </td>
+        <td class="date">
+          {{ post.date | date: "%Y-%m-%d %R" }}
+        </td>
+        <th scope="row">
+          {% unless post.type == 'chat' %}
+          {% unless post.type == 'tbd' %}<a href="{{ post.url | prepend: site.baseurl }}">{% endunless %}
+            {{ post.title }}
+          {% unless post.type == 'tbd' %}</a>{% endunless %}
+          {% if post.etivity %}
+            <span class="condensed">(w/ e-tivity: {{post.etivity}})</span>
+          {% endif %}
+          {% else %}
+          {{ post.title }} (Slack Chat Session)
+          {% endunless %}
+        </th>
+        <td class="eh">
+          {{post.eh}} EH
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+  <table class="lectures">
+    <caption><h2>#cos14</h2></caption>
+    <thead>
+      <tr>
+        <td>&nbsp;</td>
+        <th scope="col">Day</th>
+        <th scope="col">Date</th>
+        <th scope="col">Lecture</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for post in site.cos14 | sort: "date" %}
+      <tr>
+        <td>{{forloop.index}}</td>
         <td>
           {{ post.date | date: "%a" }}
         </td>
@@ -25,6 +74,7 @@ layout: default
         </th>
       </tr>
     {% endfor %}
+    </tbody>
   </table>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

@@ -19,10 +19,12 @@ layout: default
     {% if page.video %}
       <h2>Embedded Video:</h2>
 
-      <div class="embed">
+      <div class="embed" style="margin-bottom:1em;">
         <iframe src="https://www.youtube-nocookie.com/embed/{{page.video}}" frameborder="0" allowfullscreen aria-label="video"></iframe>
       </div>
     {% endif %}
+
+    {{ content }}
   </article>
 
 </div>
