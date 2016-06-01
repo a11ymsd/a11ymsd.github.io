@@ -15,6 +15,7 @@ layout: default
         <th scope="col">Date</th>
         <th scope="col">Lecture</th>
         <th scope="col">EH</th>
+        <th scope="col">Video</th>
       </tr>
     </thead>
     <tbody>
@@ -43,6 +44,11 @@ layout: default
         </th>
         <td class="eh">
           {{post.eh}} EH
+        </td>
+        <td>
+          {% if post.video %}
+            <a href="https://www.youtube.com/watch?v={{post.video}}" label="Open YouTube video page" title="Open YouTube video page" target="_blank"><svg class="icon-youtube-play"><use xlink:href="{{ "/sprite.svg" | prepend: site.baseurl }}#icon-youtube-play"></use></svg></a>
+          {% endif %}
         </td>
       </tr>
     {% endfor %}
