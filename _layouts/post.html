@@ -9,7 +9,6 @@ layout: default
   </header>
 
   <article class="post-content">
-    {{ content }}
     <div class="buttons">
       {% if page.slides %}<a class="btn" href="{{ page.slides | prepend: "/cos-presentations/" | prepend: site.baseurl | append: ".html" }}">Slides</a>{% endif %}
       {% if page.slidescom %}<a class="btn" href="{{ page.slidescom }}">Slides</a>{% endif %}
