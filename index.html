@@ -7,6 +7,55 @@ layout: default
   <h1>Lectures</h1>
 
   <table class="lectures">
+    <caption><h2>#cos16</h2></caption>
+    <thead>
+      <tr>
+        <td>&nbsp;</td>
+        <th scope="col">Day</th>
+        <th scope="col">Date</th>
+        <th scope="col">Lecture</th>
+        <th scope="col">EH</th>
+        <th scope="col">Video</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% assign idx = 0 %}
+    {% for post in site.cos16 | sort: "date" %}
+    {% unless post.type == 'chat' %}{% assign idx = idx | plus: '1' %}{% endunless %}
+      <tr>
+        <td>{% unless post.type == 'chat' %}{{ idx }}{% endunless %}</td>
+        <td class="date">
+          {{ post.date | date: "%a" }}
+        </td>
+        <td class="date">
+          {{ post.date | date: "%Y-%m-%d %R" }}
+        </td>
+        <th scope="row">
+          {% unless post.type == 'chat' %}
+          {% unless post.type == 'tbd' %}<a href="{{ post.url | prepend: site.baseurl }}">{% endunless %}
+            {{ post.title }}
+          {% unless post.type == 'tbd' %}</a>{% endunless %}
+          {% if post.etivity %}
+            <span class="condensed">(w/ e-tivity: {{post.etivity}})</span>
+          {% endif %}
+          {% else %}
+          {{ post.title }} (Slack Chat Session)
+          {% endunless %}
+        </th>
+        <td class="eh">
+          {{post.eh}} EH
+        </td>
+        <td>
+          {% if post.video %}
+            <a href="https://www.youtube.com/watch?v={{post.video}}" label="Open YouTube video page" title="Open YouTube video page" target="_blank"><svg class="icon-youtube-play icon"><use xlink:href="{{ "/sprite.svg" | prepend: site.baseurl }}#icon-youtube-play"></use></svg></a>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+  <table class="lectures">
     <caption><h2>#cos15</h2></caption>
     <thead>
       <tr>

@@ -25,3 +25,7 @@ collections:
     output: true
     permalink: /cos15/:title/
     future: true
+  cos16:
+    output: true
+    permalink: /cos16/:title/
+    future: true
