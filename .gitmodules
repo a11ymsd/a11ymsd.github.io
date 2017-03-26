@@ -1,3 +1,5 @@
 [submodule "cos-presentations"]
 	path = cos-presentations
 	url = https://github.com/a11ymsd/cos-presentations.git
+	fetchrecursesubmodules = true
+	update = checkout
