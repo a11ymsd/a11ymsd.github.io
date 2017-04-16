@@ -13,6 +13,8 @@ layout: default
       {% if page.slides %}<a class="btn" href="{{ page.slides | prepend: "/cos-presentations/" | prepend: site.baseurl | append: ".html" }}">Slides</a>{% endif %}
       {% if page.slidescom %}<a class="btn" href="{{ page.slidescom }}">Slides</a>{% endif %}
       {% if page.video %}<a class="btn" href="https://www.youtube.com/watch?v={{page.video}}">Video</a>{% endif %}
+      {% if page.video_link %}<a class="btn" href="{{page.video_link}}">Video</a>{% endif %}
+      {% if page.test_link %}<a class="btn" href="{{test.video}}">Test</a>{% endif %}
     </div>
 
     {% if page.video %}
