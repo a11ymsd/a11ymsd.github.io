@@ -48,6 +48,7 @@ layout: default
           {{post.eh}} EH
         </td>
         <td>
+          {% if post.slidescom %}<a target="_blank" href="{{ post.slidescom }}">Slides</a>{% endif %}
           {% if post.slides %}<a target="_blank" href="{{ post.slides | prepend: "/cos-presentations/" | prepend: site.baseurl | append: ".html" }}">Slides</a>{% endif %}
         </td>
         <td>
