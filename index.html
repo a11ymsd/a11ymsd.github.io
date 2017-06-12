@@ -58,6 +58,9 @@ layout: default
           {% if post.video_link %}
             <a href="{{post.video_link}}" aria-label="Open video page" title="Open video page" target="_blank"><svg class="icon-youtube-play icon"><use xlink:href="{{ "/sprite.svg" | prepend: site.baseurl }}#icon-youtube-play"></use></svg></a>
           {% endif %}
+          {% if post.video_inline %}
+            <a href="{{ post.url | prepend: site.baseurl }}#video" aria-label="Go to video" title="Open video page"><svg class="icon-youtube-play icon"><use xlink:href="{{ "/sprite.svg" | prepend: site.baseurl }}#icon-youtube-play"></use></svg></a>
+          {% endif %}
         </td>
         <td>
           {% if post.test_link %}

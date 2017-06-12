@@ -13,15 +13,22 @@ layout: default
       {% if page.slides %}<a class="btn" href="{{ page.slides | prepend: "/cos-presentations/" | prepend: site.baseurl | append: ".html" }}">Slides</a>{% endif %}
       {% if page.slidescom %}<a class="btn" href="{{ page.slidescom }}">Slides</a>{% endif %}
       {% if page.video %}<a class="btn" href="https://www.youtube.com/watch?v={{page.video}}">Video</a>{% endif %}
+      {% if page.video_inline %}<a class="btn" href="#video">Video</a>{% endif %}
       {% if page.video_link %}<a class="btn" href="{{page.video_link}}">Video</a>{% endif %}
       {% if page.test_link %}<a class="btn" href="{{test.video}}">Test</a>{% endif %}
     </div>
 
-    {% if page.video %}
-      <h2>Embedded Video:</h2>
+    {% if page.video or page.video_inline %}
+      <h2 id="video">Embedded Video:</h2>
 
       <div class="embed" style="margin-bottom:1em;">
+        {% if page.video %}
         <iframe src="https://www.youtube-nocookie.com/embed/{{page.video}}" frameborder="0" allowfullscreen aria-label="video"></iframe>
+        {% endif %}
+        {% if page.video_inline %}
+        <video src="{{ site.baseurl }}/videos/{{ page.video_inline }}" controls>
+        {% endif %}
+        (no captions are provided)
       </div>
     {% endif %}
 
