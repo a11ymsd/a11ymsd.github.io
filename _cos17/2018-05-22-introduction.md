@@ -13,8 +13,6 @@ etivity: Watch a talk and blog about it.
 
 Every student is assigned a conference talk (about 45 minutes) that should be summarized in a blog post (about one A4 page long).
 
-[Fill out this survey to get a video assigned!](https://goo.gl/forms/DXpqmuE3eb20Ab6O2)
-
 1. [Unseen – Tim Kadlec – btconfBER2016](https://vimeo.com/190833161)
 2. [Laziness in the Time of Responsive Design by Ethan Marcotte – An Event Apart](https://vimeo.com/165061923)
 3. [Marcy Sutton - How to Win at Mobile Accessibility - btconfBER2015](https://vimeo.com/144596949)
