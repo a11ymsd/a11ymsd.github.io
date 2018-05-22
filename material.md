@@ -17,6 +17,7 @@ Please read the articles and watch the talks marked with the **<svg class="icon 
 
 ## Books:
 
+* **<svg class="icon icon-star" title="Stern"><use xlink:href="{{ "/sprite.svg#icon-star"  | prepend: site.baseurl }}"></use></svg> [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone),** Laura Kalbag, A Book Apart, 166 pages
 * [Inclusive Design Patterns](https://www.smashingmagazine.com/inclusive-design-patterns/), Heydon Pickering, Smashing Books, 312 pages
 * [Colour Accessibility](http://www.fivesimplesteps.com/products/colour-accessibility), Geri Coady, Five Simple Steps, 89 pages
 * [Responsive Web Design](http://abookapart.com/products/responsive-web-design) Second Edition, Ethan Marcotte, A Book Apart, 153 pages
