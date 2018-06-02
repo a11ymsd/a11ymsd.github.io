@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction & Motivation"
 date:   2018-05-22 19:30:00+02:00
-slidescom: "https://slides.com/yatil/cos17-intro/edit"
+slidescom: "https://slides.com/yatil/cos17-intro"
 video_inline: cos17/lecture1.mp4
 test_link: https://goo.gl/forms/DKq2LMeXa3O6NySV2
 eh: 7
