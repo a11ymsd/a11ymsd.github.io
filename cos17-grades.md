@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Grades
-permalink: /grades/
+title: "Grades #cos17"
+permalink: /grades/cos17/
+hidenav: true
 ---
 
 Grading is pretty straight forward and consists of three components:
