@@ -35,3 +35,7 @@ collections:
     output: true
     permalink: /cos17/:title/
     future: true
+  cos18:
+    output: true
+    permalink: /cos18/:title/
+    future: true
