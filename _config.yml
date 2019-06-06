@@ -39,3 +39,7 @@ collections:
     output: true
     permalink: /cos18/:title/
     future: true
+
+
+plugins:
+  - jekyll-include-cache
