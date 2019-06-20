@@ -1,0 +1,14 @@
+<pre style="display: none">
+{{include.code | strip_newlines | url_escape }}
+</pre>
+
+{%- assign url = "(function(){" | append: include.code | append: '})()' | strip_newlines | url_escape -%}<a class="btn" href="javascript:{{ url | replace: '"', '%22' }}">{{include.label}}</a>{% if include.installinfo %}
+
+<details>
+  <summary>How to install and use a bookmarklet.</summary>
+  <div markdown="block">
+
+Add Info on how to use a bookmarklet here.
+
+  </div>
+</details>{% endif %}
