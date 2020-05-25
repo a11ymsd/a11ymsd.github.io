@@ -39,6 +39,10 @@ collections:
     output: true
     permalink: /cos18/:title/
     future: true
+  cos19:
+    output: true
+    permalink: /cos19/:title/
+    future: true
 
 
 plugins:
